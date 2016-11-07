@@ -1,0 +1,243 @@
+body{
+    margin: 0 auto;
+    max-width: 1080px;
+
+}
+/*  top-banner */
+.top-banner{
+    position: relative;
+}
+.home-logo{
+    position: absolute;
+    height: 46px;
+    width: 40px;
+    background: url("../images/home.png") no-repeat center;
+    background-size: 18px 18px;
+    left: 0;
+    top:0;
+}
+
+/*  icon   */
+.icon-group li{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+    float:left;
+    background-clip:content-box;
+    position: relative;
+    padding-bottom: .5rem;
+    padding-right: .5rem;
+}
+.icon-group li h2{
+    position: absolute;
+    font-size: 1.4rem;
+    color: #FFF;
+}
+.icon-group li p{
+    position: absolute;
+    font-size: 1.07rem;
+    color: #FFF;
+}
+.icon-group li img{
+    position: absolute;
+}
+.icon-group li:nth-of-type(1){
+    width: 44%;
+    height: 74px;
+    background: #368ff5;
+    background-clip:content-box;
+}
+.icon-group li:nth-of-type(1) h2{
+    top: 6px;
+    left: 11px;
+}
+.icon-group li:nth-of-type(1) p{
+    top: 46px;
+    left: 11px;
+}
+.icon-group li:nth-of-type(1) img{
+    top: 22px;
+    right: .9rem;
+    width: 41px;
+}
+.icon-group li:nth-of-type(2){
+    width: 28%;
+    height: 74px;
+    background-color: #747ae8;
+}
+.icon-group li:nth-of-type(2) h2{
+    top: 6px;
+    left:50%;
+    margin-left: -2.8rem;
+}
+.icon-group li:nth-of-type(2) img{
+    top: 34px;
+    left: 50%;
+    margin-left: -15px;
+    width: 30px;
+}
+
+.icon-group li:nth-of-type(3){
+    width: 28%;
+    height: 74px;
+    background-color: #9656f3;
+}
+.icon-group li:nth-of-type(3) h2{
+    top: 6px;
+    left:50%;
+    margin-left: -3rem;
+}
+.icon-group li:nth-of-type(3) img{
+    top: 34px;
+    left: 50%;
+    margin-left: -11px;
+    width: 22px;
+}
+.icon-group li:nth-of-type(4){
+    width: 44%;
+    height: 167px;
+    background-color: #0fc4d9;
+}
+.icon-group li:nth-of-type(4) h2{
+    top: 6px;
+    left: 11px;
+}
+.icon-group li:nth-of-type(4) img{
+    top: 61px;
+    left: 50%;
+    margin-left: -25px;
+    width: 51px;
+}
+.icon-group li:nth-of-type(5){
+    width: 28%;
+    height: 167px;
+    background-color: #e7f8ff;
+}
+.icon-group li:nth-of-type(5) h2{
+    color: #fe864a;
+    top:85px;
+    left:50%;
+    margin-left: -2.8rem;
+}
+.icon-group li:nth-of-type(5) img{
+    top: 42px;
+    left: 50%;
+    margin-left: -22px;
+    width: 44px;
+}
+.icon-group li:nth-of-type(6){
+    width: 28%;
+    height: 167px;
+    background-color: #ff677b;
+}
+.icon-group li:nth-of-type(6) h2{
+    top: 6px;
+    left:50%;
+    margin-left: -3rem;
+}
+.icon-group li:nth-of-type(6) img{
+    top: 56px;
+    left: 50%;
+    margin-left: -23px;
+    width: 46px;
+}
+.icon-group li:nth-of-type(7){
+    width: 44%;
+    height: 80px;
+    background-color: #84d018;
+}
+.icon-group li:nth-of-type(7) h2{
+    top: 6px;
+    left: 11px;
+}
+.icon-group li:nth-of-type(7) img{
+    top: 34px;
+    left: 50%;
+    margin-left: -19px;
+    width: 37px;
+}
+.icon-group li:nth-of-type(8){
+    width: 28%;
+    height: 80px;
+    background-color: #f4b613;
+}
+.icon-group li:nth-of-type(8) h2{
+    top: 6px;
+    left:50%;
+    margin-left: -2.8rem;
+}
+.icon-group li:nth-of-type(8) img{
+    top: 33px;
+    left: 50%;
+    margin-left: -16px;
+    width: 32px;
+}
+.icon-group li:nth-of-type(9){
+    width: 28%;
+    height: 80px;
+    background-color: #fe864a;
+}
+.icon-group li:nth-of-type(9) h2{
+    top: 6px;
+    left:50%;
+    margin-left: -3rem;
+}
+.icon-group li:nth-of-type(9) img{
+    top: 35px;
+    left: 50%;
+    margin-left: -12px;
+    width: 24px;
+}
+.icon-brand{
+    display: block;
+    height: 100%;
+}
+.icon-group{
+    padding: .5rem 0 0 .5rem;
+    overflow: hidden;
+}
+
+
+/*  store  */
+.store{
+    padding: 0 .5rem .5rem .5rem;
+}
+.store h2{
+    height: 3.9rem;
+    line-height: 3.9rem;
+    padding-left: 1.9rem;
+    font-size: 1.4rem;
+    background: url("../images/store-logo.png") no-repeat left center;
+    background-size: 15px 15px;
+}
+.store a{
+    float: left;
+    display: block;
+}
+.store-photo1{
+    width: 50%;
+    padding-right: 0.5rem;
+}
+.store-photo2{
+    width: 50%;
+    padding: 0 0 0.5rem 0.5rem;
+}
+.store-photo3{
+    width: 50%;
+    padding: .5rem 0 0 0.5rem;
+
+}
+
+
+/*  wedding  */
+.wedding{
+    padding: 0 .5rem .5rem .5rem;
+}
+.wedding h2{
+    height: 3.9rem;
+    line-height: 3.9rem;
+    padding-left: 1.9rem;
+    font-size: 1.4rem;
+    background: url("../images/weding-logo.png") no-repeat left center;
+    background-size: 15px 15px;
+}

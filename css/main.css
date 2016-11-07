@@ -1,0 +1,180 @@
+/***header***/
+.root{
+    margin: 0 auto;
+    max-width: 1080px;
+}
+.myTitle{
+    margin: 5rem 1rem 2rem 0;
+    display: flex;
+    justify-content: center;
+}
+.myTitle-wrap{
+    position: relative;
+}
+.background{
+    width: 100%;
+    background-color: #18d8f0;
+    box-sizing: content-box;
+    border-radius: 50%;
+    text-overflow: clip;
+    height: 100%;
+    top: 5%;
+    position: absolute;
+    z-index: -1;
+    transform: rotateZ(-10deg);
+}
+.myLogo{
+    font-size: 4rem;
+    z-index: 1;
+
+}
+.myTitle-wrap:hover{
+    transform: scale(1.1);
+    transition: all .1s ease;
+    cursor: pointer;
+}
+.myLogo h1{
+    text-shadow: 2px 2px 5px #000;
+    color: #f5f812;
+    font-family: cursive;
+}
+.myIntroduce{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+/***mySkill***/
+.mySkill h2{
+    font-size: 1.8rem;
+    line-height: 2rem;
+    font-weight: bold;
+    border-bottom: 1px solid #bdbdbd;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+}
+.mySpecial{
+    font-size: 1.2rem;
+    display: flex;
+   -webkit-flex-wrap: wrap;
+   flex-wrap:wrap;
+   -webkit-justify-content: space-around;
+   justify-content:space-around;
+}
+.mySpecial li{
+    padding: 1rem;
+    background-color: #18d8f0;
+    border-top: dashed 6px #ececec;
+    margin: 1rem 3rem;
+}
+.mySpecial li:hover{
+    transform-origin:center;
+    animation:animations .25s  infinite;
+    cursor: pointer;
+}
+@keyframes animations {
+    0% {
+        -webkit-transform: rotate(5deg)
+    }
+    50% {
+        -webkit-transform: rotate(-5deg)
+    }
+    100% {
+        -webkit-transform: rotate(5deg)
+    }
+}
+/***myWorks***/
+.wf-box{
+    padding: 2rem 3rem 3em;
+
+}
+.myWorks h2{
+    font-size: 1.8rem;
+    line-height: 2rem;
+    font-weight: bold;
+    border-bottom: 1px solid #bdbdbd;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+}
+.wf-box img{
+    border: 1px solid #18d8f0;
+    border-bottom: none;
+}
+.wf-box h3{
+    background-color: #18d8f0;
+    border-radius: 2rem 2rem 0 0;
+    line-height: 3rem;
+    text-align: center;
+    font-size: 1.36rem;
+}
+.wf-box a{
+    font-size: 1.2rem;
+    display: block;
+    background-color: #18d8f0;
+    border-radius:0 0 2rem 2rem ;
+    line-height: 3rem;
+    text-align: center;
+    transition: all 0.5s ease-in;
+
+}
+.wf-box p{
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+    background-color: #FFF;
+    text-align: left;
+    text-indent: 2rem;
+    border: 1px solid #18d8f0;
+    padding: 1rem;
+}
+.wf-box a:hover{
+    background-color: #f090c0;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.25);
+}
+
+/***media***/
+@media screen and (max-width: 768px) {
+    .myTitle{
+        flex-direction: column;
+        margin: 0;
+    }
+    .myTitle-wrap{
+        margin: 3rem;
+        text-align: center;
+        align-self: center;
+    }
+    .myIntroduce{
+        text-align: center;
+        max-width: 24rem;
+        align-self: center;
+    }
+
+}
+@media screen  and (min-width: 768px) {
+    .wf-container {
+        width: 750px;
+    }
+    .myTitle-wrap{
+        margin-right: 5rem;
+    }
+
+}
+@media screen  and (min-width: 992px) {
+    .wf-container {
+        width: 970px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    .wf-container {
+        width: 1080px;
+    }
+    .myTitle{
+        flex-direction: row;
+
+    }
+}
+.wf-container{
+    margin: 0 auto;
+}

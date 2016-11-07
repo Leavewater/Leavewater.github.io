@@ -1,0 +1,50 @@
+.carousel img{
+	width: 100%;
+}
+body{
+	padding-top: 49px;
+}
+nav ul li{
+	margin: 0 20px;
+}
+#carousel-1 ol li{
+	height: 15px;
+	width: 15px;
+}
+.attitude img{
+	height: 200px;
+	width: 200px;
+}
+.centers{
+  margin-top: 50px;
+}
+.progress{
+	margin-top: 30px;
+	height: 30px;
+	vertical-align: middle;
+
+}
+hr{
+	margin: 60px 0;
+}
+.progress p{
+	line-height: 30px;
+	font-size: 25px;
+}
+footer{
+	height: 50px;
+	background-color: black;
+	margin-top:50px; 
+}
+.works img{
+	border:2px solid #ccc;
+	border-radius: 20px ;
+}
+.work-show{
+	margin: 50px 0 20px 0;
+}
+
+	        
+
+
+

@@ -1,0 +1,317 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+img{
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+}
+*{
+    font-family:"Microsoft YaHei Ui" ;
+}
+
+
+
+/****header****/
+.fix {
+    zoom:1;
+}
+.fix:after {
+    display: block;
+    visibility: hidden;
+    overflow: hidden;
+    content: "";
+    height: 0;
+    clear: both;
+}
+.box {
+    width: 1200px;
+    margin-left:-600px;
+    top:0;
+    left: 50%;
+    position: absolute;
+}
+.header {
+    position: relative;
+}
+.header-left{
+    position: absolute;
+    top: 12px;
+    left: 83px;
+}
+.header-right{
+    margin-left: 320px;
+    float: left;
+    display: inline-block;
+    font-size: 14px;
+}
+.header-right a:hover{
+    color:#25aae1;
+}
+.header-tel{
+    font-size: 11px;
+    float: left;
+    padding-top: 32px;
+}
+.header-tel img{
+    vertical-align: middle;
+    display: inline-block;
+}
+.header-try {
+    float: left;
+    padding-left: 22px;
+}
+.header-try a{
+    display: inline-block;
+    border-radius: 10px;
+    border: 1px solid #25aae1;
+    background-color: #fff;
+    padding: 9px 22px;
+    font-size: 13px;
+    margin-top: 22px;
+}
+.header-try a:hover{
+    background: #25aae1;
+    color: #ffffff;
+
+}
+.header-right li{
+    display: inline-block;
+    padding-right:48px;
+    padding-top: 32px;
+}
+
+.banner-introduce{
+    position: absolute;
+    width: 700px;
+    left: 50%;
+    margin-left: -350px;
+    top:25%;
+}
+.banner-introduce h1{
+    font-size: 56px;
+    text-align: center;
+    margin-bottom: 22px;
+}
+.banner-introduce p{
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.fp-controlArrow{
+    display: none;
+}
+.page1{
+    background: url("../images/banner.png") no-repeat center 350px;
+}
+
+    /****product****/
+.product{
+    background-color: #e3ecf2;
+    z-index: 1;
+    overflow: hidden;
+}
+.product-box{
+    width: 1200px;
+    position: absolute;
+    left: 50%;
+    margin-left:-600px;
+    top:0;
+}
+
+.product-h1{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 48.51px;
+    color: #6bc2e6;
+}
+.product-p{
+    padding: 69px 0 106px 0;
+    text-align: center;
+    color: #6bc2e6;
+    line-height: 28px;
+}
+.product-introduce{
+    display: inline-block;
+    width: 197px;
+    background: #ffffff;
+
+}
+.product-introduce{
+    margin-left: 110px;
+    text-align: center;
+    box-shadow: 0 0 10px #aaaaaa;
+    border-radius: 10px;
+}
+.product-photo{
+    line-height: 143px;
+    height: 143px;
+    border-bottom: solid 1px #d1d3d3;
+}
+.product-word{
+    padding: 0px 0px 45px 0px;
+}
+.product-word p{
+    font-size: 14px;
+    line-height: 21px;
+    padding: 21px 18px 0 18px;
+}
+.product-word h2{
+    white-space: nowrap;
+    padding: 41px 0 0;
+    font-size: 24px;
+    color: #78c9de;
+}
+.product-introduce img{
+    display: inline-block;
+    vertical-align: middle;
+}
+.product-introduce:nth-of-type(1){
+    margin-left: 37px;
+}
+
+
+/****range****/
+.range-word{
+    padding-top: 60px;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.range-word h1{
+    font-size: 48.51px;
+
+}
+.range-word p{
+    font-size: 24px;
+    padding-top: 30px;
+}
+.range-img{
+    width: 1000px;
+    height: 576px;
+    margin: 50px auto 0;
+}
+.range-img img{
+    width: 1000px;
+}
+
+
+/****brand****/
+.brand{
+    width: 100%;
+    background-color: #94bade;
+}
+.brand-wrap1,.brand-wrap2{
+    position: relative;
+}
+.brand-box1,.brand-box2{
+    width: 1200px;
+    position: absolute;
+    margin-left: -600px;
+    left: 50%;
+    top:10%;
+}
+.brand-logo{
+    width: 146px;
+    height: 146px;
+    margin-left: 191px;
+    margin-top: 100px;
+    display: inline-block;
+    transition: all 0.5s linear;
+}
+.brand-logo:hover{
+    transform: translateY(-10px);
+    box-shadow:0 0 50px rgba(0, 0, 0, 0.33);
+}
+.brand-box1 .brand-logo:nth-of-type(1){
+    border-radius: 78px;
+    background: #ffffff url("../images/brand_01.png") 50% 50% no-repeat;
+}
+.brand-box1 .brand-logo:nth-of-type(2){
+    border-radius: 78px;
+    background: #ffffff url("../images/brand_02.png") 50% 50% no-repeat;
+}
+.brand-box1 .brand-logo:nth-of-type(3){
+    border-radius: 78px;
+    background: #ffffff url("../images/brand_03.png") 50% 50% no-repeat;
+}
+.brand-box1 .brand-logo:nth-of-type(4){
+    border-radius: 78px;
+    background: #ffffff url("../images/brand_04.png") 50% 50% no-repeat;
+}
+.brand-box1 .brand-logo:nth-of-type(5){
+    border-radius: 78px;
+    background: #ffffff url("../images/brand_05.png") 50% 50% no-repeat;
+}
+.brand-box1 .brand-logo:nth-of-type(6){
+    border-radius: 78px;
+    background: #ffffff url("../images/brand_06.png") 50% 50% no-repeat;
+}
+.brand-box2 .brand-logo:nth-of-type(1){
+    border-radius: 78px;
+    background: #ffffff url("../images/brand_07.png") 50% 50% no-repeat;
+}
+.brand-box2 .brand-logo:nth-of-type(2){
+    border-radius: 78px;
+    background: #ffffff url("../images/brand_08.png") 50% 50% no-repeat;
+}
+.brand-box2 .brand-logo:nth-of-type(3){
+    border-radius: 78px;
+    background: #ffffff url("../images/brand_09.png") 50% 50% no-repeat;
+}
+.brand-box2 .brand-logo:nth-of-type(4){
+    border-radius: 78px;
+    background: #ffffff url("../images/brand_10.png") 50% 50% no-repeat;
+}
+.brand-box2 .brand-logo:nth-of-type(5){
+    border-radius: 78px;
+    background: #ffffff url("../images/brand_11.png") 50% 50% no-repeat;
+}
+.brand-box2 .brand-logo:nth-of-type(6){
+    border-radius: 78px;
+    background: #ffffff url("../images/brand_12.png") 50% 50% no-repeat;
+}
+

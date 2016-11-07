@@ -1,0 +1,62 @@
+/* reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 10px;
+}
+body {
+    font-family: "Microsoft YaHei", "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+    color: #333;
+    max-width: 1080px;
+    margin: 0 auto;
+    background-color: #ececec;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #419aff;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+/* style for waterfall grid */
+.wf-container {
+    margin: 0 auto;
+}
+
+.wf-container:before, .wf-container:after {
+    content: '';
+    display: table;
+}
+
+.wf-container:after {
+    clear: both;
+}
+
+.wf-box {
+    margin: 10px;
+}
+
+.wf-box img {
+    display: block;
+    width: 100%;
+}
+
+.wf-box .content {
+    border: 1px solid #ccc;
+    border-top-width: 0;
+    padding: 5px 8px;
+}
+
+.wf-column {
+    float: left;
+}
+
