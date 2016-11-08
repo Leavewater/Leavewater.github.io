@@ -19,9 +19,6 @@ body{
 
 /*  icon   */
 .icon-group li{
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing:border-box;
-    box-sizing: border-box;
     float:left;
     background-clip:content-box;
     position: relative;
@@ -216,15 +213,15 @@ body{
 }
 .store-photo1{
     width: 50%;
-    padding-right: 0.5rem;
+    padding-right: .26rem;
 }
 .store-photo2{
     width: 50%;
-    padding: 0 0 0.5rem 0.5rem;
+    padding-left: .26rem;
 }
 .store-photo3{
     width: 50%;
-    padding: .5rem 0 0 0.5rem;
+    padding: .46rem 0 0 .26rem;
 
 }
 
