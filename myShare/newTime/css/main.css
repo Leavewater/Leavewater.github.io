@@ -6,7 +6,7 @@ h4, h5, h6, form, img, input {
     padding: 0;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: normal;
 }
 
@@ -28,25 +28,21 @@ textarea {
     resize: none;
 }
 
-body {
-    font-size: 12px;
+html,body {
+
+    font:12px 宋体 ,tahoma,sans-serif;
     color: #000;
-    font-family: "Microsoft YaHei ";
 }
 a {
     text-decoration: none;
     color: #000;
 }
 
-.clearfix:after, .clearfix:before {
+.clearfix:after {
     content: "";
     display: table;
-}
-
-.clearfix:after {
     clear: both;
 }
-
 .clearfix {
     zoom: 1;
 }
@@ -99,7 +95,7 @@ a {
     line-height: 35px;
     height: 35px;
     color: #FFF;
-    padding: 0 23.5px;
+    padding: 0 22px 0 21px;
 }
 .nav p{
     float: left;
@@ -121,6 +117,7 @@ a {
     float: left;
     line-height: 35px;
     background: url("../images/nav_border.png") no-repeat right center;
+    letter-spacing: 1px;
 }
 .nav>ul>li>a:hover,.nav>ul>li>a:active{
     background: #0e955c;
@@ -135,7 +132,6 @@ a {
 .nav_list li{
     height: 12px;
     float: left;
-
 }
 .nav_list li a{
     display: inline-block;
@@ -146,10 +142,12 @@ a {
 .nav_list li a.nav_a_last{
    border: none;
 }
-
+.nav>ul>.nav_list_last{
+    background-image: none;
+}
 /****banner****/
 .banner{
-    padding: 0px 10px 16px 10px;
+    padding: 0 10px 16px 10px;
     position: relative;
     margin-top: 30px;
 }
@@ -195,11 +193,21 @@ a {
     height: 203px;
     background: #f6f6f6;
 }
-.business_box{
-    padding: 19px 55px 20px 16px;
+.business_box_one{
+    padding: 19px 0 0;
     float: left;
-    min-width: 240px;
-    _width:240px;
+    width: 310px;
+    overflow: hidden;
+}
+.business_box_two{
+    padding: 19px 0 0;
+    float: left;
+    width:296px;
+}
+.business_box_last{
+    padding: 19px 0 0;
+    float: left;
+    width:348px;
 }
 .business_box img{
     float: left;
@@ -229,19 +237,18 @@ a {
     color: #008d37;
 }
 .business_word1{
-    padding-top: 20px;
+    display: block;
+    padding-top: 30px;
     padding-left: 4px;
 }
 .business_word2{
-    padding-top: 40px;
+    padding-top: 50px;
     padding-left: 4px;
 }
 .business_word3{
     padding: 8px 0 0 180px;
 }
-.business_last_box{
-    padding-right:40px
-}
+
 ul.business_list{
     padding-left: 180px;
 }
@@ -250,10 +257,6 @@ embed{
 }
 .introduce{
     padding-top: 18px;
-}
-.introduce img{
-    float: left;
-    display: block;
 }
 .introduce_top{
     background: url("../images/introduce_bg.png") no-repeat left center;
@@ -288,6 +291,9 @@ embed{
     padding-left: 10px;
     text-indent: 24px;
 }
+.introduce_wrap img{
+    float: left;
+}
 .introduce_middle{
     width: 340px;
     float: left;
@@ -301,6 +307,10 @@ embed{
 }
 .introduce_top_middle{
     width: 340px;
+}
+.introduce_img{
+    float: left;
+    margin-bottom: 15px;
 }
 .introduce_middle img{
     width: 130px;
@@ -317,7 +327,7 @@ embed{
     border-bottom: dashed 1px #cecece
 }
 .introduce_word{
-    font-size: 2px;
+    font-size: 10px;
     display: inline-block;
 }
 .introduce_word a{
